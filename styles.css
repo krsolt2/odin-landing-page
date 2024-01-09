@@ -75,7 +75,7 @@ randominfo h2 {
     text-align: center;
     color: #1F2937;
     font-weight: 800;
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .squares {
     display: flex;
@@ -95,6 +95,13 @@ randominfo h2 {
     height: 150px;
     border-radius: 12px;
     color: #3882F6;
-    margin: 20px;
-    align-items: flex-start;
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+.under-square {
+    text-align: center;
+    width: 150px;
+    align-items: center;
+    padding-top: 7px;
 }
