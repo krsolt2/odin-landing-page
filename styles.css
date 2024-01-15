@@ -1,7 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
 .main-header {
     background-color: #1F2937;
     width: 100%;
@@ -10,31 +9,32 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    justify-content: flex-start;
-    margin-right: 600px;
+    justify-content: space-around;
+    align-items: center;
 }
 .headerLogo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 600px;
-    flex-grow: 2;
 }
-.link-one, .link-two, .link-three {
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
     font-size: 18px;
     color: #E5E7EB;
     width: 130px;
     text-align: center;
 }
-
-
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding-top: 50px;
+    
     padding-bottom: 125px;
+    align-items: center;
+    justify-content: center;
 }
 .hero-left {
-    margin-left: 600px;
+    width: 800px;
 }
 .hero-left-maintext {
     font-size: 48px;
@@ -57,22 +57,18 @@
     padding: 5px;
     margin-top: 15px;
 }
-
 .hero-placeholder {
-    margin-right: 600px;
     width: 600px;
     height: 200px;
     background-color: gray;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .hero-placeholder-text {
     text-align: center;
     color: #F9FAF8;
     padding-top: 90px;
 }
-
 randominfo {
-    
 }
 randominfo h2 {
     font-size: 36px;
